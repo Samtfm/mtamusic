@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(220,220,220);
+}
+.jumbotron{
+  background-color: transparent;
+  border-bottom: 4px solid rgb(140,140,140);
+}
+.jumbotron h1 {
+  color: rgb(140,140,140);
+  font-weight: bold;
+}
+.nav-tabs>li>a {
+	/*border: none !important;*/
+	/*color: black !important;*/
+	/*border-radius: 10px;*/
+}
+.navtabs{
+	display: flex;
+}
+.custom-nav-tabs {
+
+}
+.custom-nav-tabs li{
+	margin-right: 5px;
+	list-style: none;
+  text-align: right;
+}
+.jumbotron{
+  padding: .1em;
+}
