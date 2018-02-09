@@ -9,6 +9,9 @@ body {
   color: rgb(140,140,140);
   font-weight: bold;
 }
+.jumbotron h2 {
+
+}
 .nav-tabs>li>a {
 	/*border: none !important;*/
 	/*color: black !important;*/
@@ -20,6 +23,12 @@ body {
 .custom-nav-tabs {
 
 }
+nav {
+  /*position: fixed !important;*/
+  /*right: 0;*/
+  /*background-color: aliceblue;*/
+}
+
 .custom-nav-tabs li{
 	margin-right: 5px;
 	list-style: none;
