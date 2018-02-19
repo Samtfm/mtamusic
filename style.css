@@ -3,14 +3,16 @@ body {
 }
 .jumbotron{
   background-color: transparent;
-  border-bottom: 4px solid rgb(140,140,140);
+  border-bottom: 1px solid rgb(100,100,100);
 }
 .jumbotron h1 {
-  color: rgb(140,140,140);
+  color: rgb(100,100,100);
   font-weight: bold;
+  text-align: left;
 }
-.jumbotron h2 {
-
+.jumbotron h3 {
+  text-align: left;
+  font-size: 1.4em;
 }
 .nav-tabs>li>a {
 	/*border: none !important;*/
@@ -23,7 +25,12 @@ body {
 .custom-nav-tabs {
 
 }
+.tab-content{
+  min-height: 300px;
+}
 nav {
+  background-color: rgb(30,30,30);
+  color: white;
   /*position: fixed !important;*/
   /*right: 0;*/
   /*background-color: aliceblue;*/
@@ -36,4 +43,15 @@ nav {
 }
 .jumbotron{
   padding: .1em;
+}
+
+.soundcloud iframe{
+  margin-top: 40px;
+/*  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: 
+*/
 }
